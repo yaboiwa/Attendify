@@ -10,7 +10,7 @@ require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
 define('SMTP_EMAIL', 'tyasuham@gmail.com');
-define('SMTP_APP_PASSWORD', 'ymxqoywibfhvmupf'); // your app password
+define('SMTP_APP_PASSWORD', 'xxxxxxxx'); // your app password
 
 function sendEmailOTP($toEmail, $subject, $body) {
     $mail = new PHPMailer(true);
